@@ -13,6 +13,7 @@ public class StudentController {
 		
 		Student theStudent = new Student();
 		theModel.addAttribute("student", theStudent);
+//		this model would have a student object
 		return "student-form";
 	}
 
